@@ -1,0 +1,7 @@
+1- Introducción y que vas aprender en este curso ok
+2- Que es Bootstrap ok
+3- Herramientas que utilizaremos ok
+4- Como descargar Bootstrap 4 y agregarlo a nuestro sitio ok
+
+6- Grid de Bootstrap
+7 - Creando nuestra primera pagina utiliz
