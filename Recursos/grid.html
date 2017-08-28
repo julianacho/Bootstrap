@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewreport" content="width=device-width, user-scalable=no , initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Grid</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <div class="container">
+       <header id="banner" >
+        <!-- Barra de menú -->
+        <nav>
+          <ul>
+
+            <li class="active" ><a href="#" disabled>Autorizaciones</a></li>
+            <li ><a href="#">Lectura de Material</a></li>
+            <li><a href="#">Empaque</a></li>
+            <li><a href="#">Envio</a></li>
+          </ul>
+        </nav>
+       </header>
+       <form class="" action="index.html" method="post">
+         <fieldset class="scheduler-border">
+         <legend class="scheduler-border">Pruebas Saber 3, 5 ,9 Controlada</legend>
+
+         <div class="contenedor d-flex flex-nowrap">
+ 					<div class="divCabecera">
+            <dl class="dl-horizontal">
+              <dt>Sesion</dt>
+              <dd>Unica</dd>
+            </dl>
+          </div>
+ 					<div class="divCabecera">
+            <dl class="dl-horizontal">
+              <dt>Sede</dt>
+              <dd>Maria Antonio Nariño</dd>
+            </dl>
+          </div>
+ 					<div class="divCabecera">
+            <dl class="dl-horizontal">
+              <dt>Sede Jornada</dt>
+              <dd>100545454545 - Mañama</dd>
+            </dl>
+          </div>
+ 				</div>
+
+        <div class="contenedor d-flex flex-nowrap">
+         <div class="divCabecera">
+           <dl class="dl-horizontal">
+             <dt>Operario</dt>
+             <dd>Juan Javier Rodriguez</dd>
+           </dl>
+         </div>
+         <div class="divCabecera">
+           <dl class="dl-horizontal">
+             <dt>Fecha</dt>
+             <dd>2013/05/12</dd>
+           </dl>
+         </div>
+       </div>
+         </fieldset>
+         <br>
+
+         <fieldset class="scheduler-border">
+           <div class="contenedor d-flex flex-nowrap">
+             <div class="divLector">
+               <p id="idPCodigoBarras">Codigo Barras Hoja Separadora</p>
+             </div>
+             <div class="divLector">
+               <input type="text" class="form-control" size="30" >
+             </div>
+             <div class="divLector">
+               <button class="btn btn-primary">Lector Manual</button>
+             </div>
+           </div>
+         </fieldset>
+         <br>
+         <fieldset class="scheduler-border">
+           <div class="alert alert-info mt-3">
+   					<strong>Atención</strong> Seleccione de la lista desplegable si las hojas de respuesta son de Presentes o ausentes.
+   				</div>
+          <div class="contenedor d-flex flex-nowrap">
+            <div class="divLector">
+              <p id="idPCodigoBarras">Seleccione Presentes y Ausentes:</p>
+            </div>
+            <div class="divLector">
+              <select class="form-control" id="sel1">
+                  <option>Presentes</option>
+                  <option>Ausentes</option>
+              </select>
+            </div>
+          </div>
+          <div class="contenedor d-flex flex-nowrap">
+            <div class="divLector">
+              <p id="idPCodigoBarras">Codigo Barras Hoja Respuesta:</p>
+            </div>
+            <div class="divLector">
+              <input type="text" class="form-control" size="30" >
+            </div>
+            <div class="divLector">
+              <button class="btn btn-primary">Lector Manual</button>
+            </div>
+          </div>
+          <div class="TituloTablas">Cantidad Hojas de Respuesta Leídas
+          </div>
+          <div class="DetalleTablas">
+            <div class="contenedor d-flex flex-nowrap sinborde">
+               <div class="DatosHojas">Presentes</div>
+               <div class="DatosHojas">Ausentes</div>
+               <div class="DatosHojas">Total</div>
+            </div>
+          </div>
+          <div class="DetalleCantidades">
+            <div class="contenedor d-flex flex-nowrap sinborde">
+               <div class="DatosHojas">0</div>
+               <div class="DatosHojas">15</div>
+               <div class="DatosHojas">25</div>
+            </div>
+          </div>
+          <br>
+          <div class="contenedor d-flex flex-nowrap sinborde">
+            <div class="TituloTablasMaterialLeido">Material Leido</div>
+            <div class="TituloTablasMaterialSinLeer">Material Sin Leer</div>
+          </div>
+          <div class="contenedor d-flex flex-nowrap sinborde">
+            <div class="TablasMaterialLeido">
+              <table class="table">
+  <thead>
+    <tr >
+      <th class="BordeTituloTabla">Usuario</th>
+      <th class="BordeTituloTabla">Tipo elemento</th>
+      <th class="BordeTituloTabla">Hora</th>
+      <th class="BordeTituloTabla">Codigo de Barras</th>
+    </tr>
+  </thead>
+  <tbody class="BordeDetalleTabla">
+    <tr>
+      <th scope="row">Jrojas</th>
+      <td>H Respuesta</td>
+      <td>12:000</td>
+      <td>cb5555555555001</td>
+    </tr>
+    <tr>
+      <th scope="row">Jrojas</th>
+      <td>H Respuesta</td>
+      <td>12:000</td>
+      <td>cb5555555555001</td>
+    </tr>
+    <tr>
+      <th scope="row">Jrojas</th>
+      <td>H Respuesta</td>
+      <td>12:000</td>
+      <td>cb5555555555001</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+            </div>
+            <div class="TablasMaterialSinLeer">
+
+
+              <table class="table">
+              <thead>
+              <tr>
+              <th style="BordeTituloTabla">No Hoja Respuesta</th>
+              </tr>
+              </thead>
+              <tbody class="BordeDetalleTabla">
+              <tr>
+                 <th scope="row">HR0000000123456789</th>
+              </tr>
+              <tr>
+                 <th scope="row">HR0000000123456789</th>
+              </tr>
+              <tr>
+                 <th scope="row">HR0000000123456789</th>
+              </tr>
+              <tr>
+                 <th scope="row">HR0000000123456789</th>
+              </tr>
+              </tbody>
+              </table>
+
+
+            </div>
+          </div>
+          <br>
+  				<div class="contenedor d-flex justify-content-end">
+  					<div class="BotonesFinales">
+              <button class="btn btn-primary">Regresar</button>
+            </div>
+  					<div class="BotonesFinales">
+              <button class="btn btn-primary">Reportar Faltantes</button>
+            </div>
+  					<div class="BotonesFinales">
+              <button class="btn btn-primary">Finalizar Jornada</button>
+            </div>
+  				</div>
+         </fieldset>
+    </div>
+
+
+    </form>
+
+  </body>
+</html>
